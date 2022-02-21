@@ -1,0 +1,393 @@
+html,
+body {
+	height: 100%;
+}
+
+.navColor {
+	background-color: #35d2c1 !important;
+}
+
+.logo {
+	height: 38.31643295288086px;
+	width: 35.9858512878418px;
+	left: 103.8349609375px;
+	margin: 20.14794921875px;
+	border-radius: 0px;
+}
+
+.nav-link {
+	color: white !important;
+	font-weight: 700;
+	margin-left: 50px;
+}
+
+.img-vero {
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.imgContainer {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.Container-help {
+	display: flex;
+	flex-direction: column;
+}
+
+.div-titleHelp {
+	height: auto;
+	width: auto;
+	padding: 1rem;
+}
+
+.how-title {
+	font-size: 2.1rem;
+	font-family: "Cormorant", serif;
+	font-family: "Josefin Sans", sans-serif;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.div-titleHelp p {
+	font-family: "Cormorant", serif;
+	font-family: "Source Sans 3", sans-serif;
+	color: #3eb595;
+	font-weight: 800;
+}
+
+.Div-mission {
+	height: 100%;
+}
+
+.my-Mission {
+	font-size: 1rem;
+	font-family: "Josefin Sans", sans-serif;
+	font-family: "Source Sans 3", sans-serif;
+	padding: 1rem;
+}
+
+.PaperTheses {
+	font-family: "Source Sans 3", sans-serif;
+	padding: 1rem;
+}
+
+.cards {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.card-conteiner {
+	flex-basis: 50%;
+	padding: 0.6rem;
+}
+
+.myCard {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	height: 100%;
+	min-width: 0;
+	border: 5px solid #35d2c1;
+	border-radius: 15px;
+}
+
+.cardImg {
+	margin: 0 auto;
+	height: 60px;
+	width: 60px;
+	padding-top: 1em;
+}
+
+.myCard-body {
+	flex-grow: 1;
+	/* padding: 1rem 1rem; */
+}
+
+.titleCard {
+	text-align: center;
+	font-size: 1em;
+	margin-top: 6px;
+}
+
+.descriptionCard {
+	text-align: center;
+	font-size: 0.7em;
+}
+.div-card-btn {
+	background-color: #35d2c1;
+	text-align: center;
+}
+
+.cardButton {
+	color: white;
+	background: #35d2c1;
+	border: none;
+}
+
+.my-description-container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.my-description-p {
+	font-family: "Source Sans 3", sans-serif;
+}
+.bold {
+	font-weight: 600;
+}
+
+.flex-firm {
+	display: flex;
+	padding: 1rem;
+}
+.firm-p {
+	font-size: 0.9rem;
+	font-family: "Source Sans 3";
+	font-style: italic;
+	color: #55bcb6;
+	padding: 0.5rem;
+	width: 39%;
+}
+.img-p {
+	width: 60%;
+	padding: 0.5rem;
+}
+.logos-img {
+	width: 100%;
+}
+.logos-img-kolab {
+	width: 80%;
+}
+
+.logos-img-highly {
+	width: 120%;
+}
+.clients-p {
+	margin-top: -30px;
+}
+.kolab-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.li-flex {
+	display: flex;
+	flex-flow: row wrap;
+	width: 50%;
+}
+
+.list-kolab {
+	flex-basis: 100%;
+	font-family: "Source Sans 3", sans-serif;
+	list-style: none;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+}
+.imgs-kolab {
+	padding: 1rem;
+	width: 50%;
+}
+
+.rectangle-coments {
+	position: relative;
+}
+
+.rect-card {
+	height: 100%;
+	width: 100%;
+}
+
+.lnk-comments {
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: 600;
+	font-size: 0.9rem;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.lnk-p {
+	color: #55bcb6;
+	margin-bottom: 0;
+	padding: 1px;
+}
+.lnk-img {
+	width: 24px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.bold-works {
+	font-weight: 600;
+}
+/* .works-container {
+} */
+
+.works-1col {
+	padding: 0 1rem 0 5rem;
+}
+
+.works-2col {
+	display: flex;
+	align-items: baseline;
+}
+.works-3col {
+	display: flex;
+	align-items: baseline;
+}
+.years {
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+}
+.years-3col {
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+}
+.works-text {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 0.9rem;
+	padding: 1rem;
+	width: 100%;
+}
+.works-text-2col-view {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 0.9rem;
+	padding: 0 1rem 0 6rem;
+	width: 100%;
+}
+.works-text-3col-view {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 0.9rem;
+	padding: 1rem 1rem 0 0.5rem;
+	width: 100%;
+}
+.work-div-btn {
+	display: flex;
+	align-items: flex-start;
+	padding: 1rem 1rem 0 0;
+}
+.work-btn {
+	display: flex;
+	align-items: center;
+	background: #ffffff;
+	border: 1px solid #55bcb6;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.img-view {
+	width: 1rem;
+}
+.btn-view-txt {
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	padding-left: 0.3rem;
+	color: #55bcb6;
+}
+/* SERVICES PAGE */
+
+.Title-Services {
+	margin: 20px;
+	color: #35d2c1;
+	font-family: Josefin Sans;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.subtitleServices {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.subtitleImage {
+	width: 80px;
+	height: 112px;
+	left: 57px;
+	top: 194px;
+}
+
+.subtitleP {
+	font-family: "Source Sans 3", sans-serif;
+	margin-left: 20px;
+}
+
+.btn-wAout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wAbout {
+	background-color: #35d2c1;
+	border: none;
+	font-family: Source Sans 3;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 32px;
+	color: white;
+	padding: 20px;
+	border-radius: 15px;
+	margin-left: 15px;
+}
+
+.myPoint {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.myPoints {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	align-items: baseline;
+}
+
+.descriptionPoint {
+	font-family: "Source Sans 3", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.descriptionPoint-color {
+	color: #7ec7b7;
+}
+
+.numbersServices {
+	color: #7ec7b7;
+	font-size: 45px;
+	margin-bottom: 60px;
+}
+.services-title {
+	font-family: Source Sans 3;
+	padding: 15px;
+	font-size: 2rem;
+}
+
+.services {
+	font-family: "Source Sans 3", sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}

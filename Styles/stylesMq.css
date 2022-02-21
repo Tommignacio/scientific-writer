@@ -1,0 +1,114 @@
+@media screen and (min-width: 498px) {
+	/* INDEX */
+
+	.card-conteiner {
+		padding: 0.7rem;
+	}
+	.cardImg {
+		height: 90px;
+		width: 90px;
+	}
+	.titleCard {
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+	.descriptionCard {
+		font-size: 1em;
+	}
+	.myCard-body {
+		padding: 0.8rem;
+	}
+
+	.imgs-kolab {
+		padding: 1.5rem;
+		width: 60%;
+	}
+}
+@media screen and (min-width: 768px) {
+	/* INDEX */
+	.cards {
+		flex-wrap: wrap-reverse;
+	}
+
+	.card-conteiner {
+		padding: 0.5rem;
+		flex-basis: 33.3333%;
+	}
+
+	.card-conteiner:nth-child(1) {
+		order: 1;
+	}
+	.card-conteiner:nth-child(2) {
+		order: 2;
+	}
+	.cardImg {
+		height: 110px;
+		width: 110px;
+	}
+	.titleCard {
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+	.descriptionCard {
+		font-size: 1em;
+	}
+
+	.rectangle-coments-flex {
+		display: flex;
+	}
+
+	/* SERVICES SECTION */
+
+	.myPoint {
+		flex-flow: row wrap;
+		padding: 20px;
+	}
+	.myPoints {
+		margin: 6px;
+		flex-basis: 48%;
+	}
+
+	.services {
+		flex-flow: row wrap;
+		padding: 20px;
+	}
+	.service {
+		margin: 6px;
+		flex-basis: 48%;
+	}
+}
+
+@media screen and (min-width: 975px) {
+	/* INDEX */
+
+	.cardImg {
+		height: 40%;
+		width: 40%;
+	}
+	.card-conteiner {
+		padding: 1rem;
+	}
+	/* SERVICES SECTION */
+
+	.subtitleServices {
+		flex-direction: row;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (min-width: 1136px) {
+	.cardImg {
+		height: 50%;
+		width: 50%;
+	}
+	.card-conteiner {
+		padding: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	/* .cards {
+	}
+	.myCard {
+	} */
+}
