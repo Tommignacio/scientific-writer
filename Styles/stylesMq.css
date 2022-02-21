@@ -56,7 +56,9 @@
 	.rectangle-coments-flex {
 		display: flex;
 	}
-
+	.card-column {
+		flex-basis: 20%;
+	}
 	/* SERVICES SECTION */
 
 	.myPoint {

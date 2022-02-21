@@ -105,16 +105,18 @@ body {
 
 .myCard-body {
 	flex-grow: 1;
-	/* padding: 1rem 1rem; */
 }
 
 .titleCard {
+	font-family: "Josefin Sans";
+	color: #55bcb6;
 	text-align: center;
-	font-size: 1em;
+	font-size: 0.8rem;
 	margin-top: 6px;
 }
 
 .descriptionCard {
+	font-family: "Source Sans 3";
 	text-align: center;
 	font-size: 0.7em;
 }
@@ -225,8 +227,6 @@ body {
 .bold-works {
 	font-weight: 600;
 }
-/* .works-container {
-} */
 
 .works-1col {
 	padding: 0 1rem 0 5rem;
@@ -241,16 +241,18 @@ body {
 	align-items: baseline;
 }
 .years {
+	color: #7ec7b7;
 	padding: 1rem;
 	font-size: 1.5rem;
-	font-family: Josefin Sans;
+	font-family: "Josefin Sans";
 	font-style: normal;
 	font-weight: bold;
 }
 .years-3col {
+	color: #7ec7b7;
 	padding: 1rem;
 	font-size: 1.5rem;
-	font-family: Josefin Sans;
+	font-family: "Josefin Sans";
 	font-style: normal;
 	font-weight: bold;
 }
@@ -258,19 +260,22 @@ body {
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 0.9rem;
 	padding: 1rem;
+	width: 814px;
+}
+.wt-h100 {
 	width: 100%;
 }
 .works-text-2col-view {
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 0.9rem;
 	padding: 0 1rem 0 6rem;
-	width: 100%;
+	width: 894px;
 }
 .works-text-3col-view {
 	font-family: "Source Sans 3", sans-serif;
 	font-size: 0.9rem;
 	padding: 1rem 1rem 0 0.5rem;
-	width: 100%;
+	width: 805px;
 }
 .work-div-btn {
 	display: flex;
@@ -295,6 +300,97 @@ body {
 	padding-left: 0.3rem;
 	color: #55bcb6;
 }
+.choose-title {
+	color: #55bcb6;
+}
+
+.card-column {
+	flex-basis: 33.333%;
+	padding: 0.5rem;
+}
+.img-cards2 {
+	margin: 0 auto;
+	height: 75px;
+	width: 73px;
+	margin-top: 1rem;
+}
+.myCard-text {
+	flex-grow: 1;
+	padding: 1rem;
+}
+.title-card2 {
+	text-align: center;
+	color: #55bcb6;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+}
+.myCard2 {
+	border: 2px solid #35d2c1;
+	justify-content: center;
+}
+
+.service-div {
+	padding: 1rem;
+}
+.service-p {
+	font-family: "Source Sans 3";
+}
+.img-items-service {
+	width: 100%;
+}
+
+/* FOOTER */
+.textoFooter {
+	color: #87e64e;
+	font-family: "Ubuntu", sans-serif;
+	letter-spacing: 2px;
+}
+
+.subtextoFooter {
+	color: ivory;
+	font-family: "Calibri", "Trebuchet MS", sans-serif;
+	letter-spacing: 1px;
+}
+
+.sm-button {
+	color: #fff;
+	width: 37px;
+	height: 37px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 37px;
+	transition: all 0.5s ease;
+	line-height: 2.1em;
+}
+
+.sm-button.instagram:hover,
+.sm-button.facebook:hover {
+	border: 2px solid;
+	background-color: transparent;
+	transform: rotateY(360deg);
+}
+
+.sm-button.instagram {
+	background: #db4189;
+	margin-left: 20px;
+}
+
+.sm-button.facebook {
+	background: #0673e7;
+}
+
+.sm-button.instagram:hover,
+.sm-button.facebook:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
 /* SERVICES PAGE */
 
 .Title-Services {
