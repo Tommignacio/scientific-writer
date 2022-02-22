@@ -342,53 +342,53 @@ body {
 }
 
 /* FOOTER */
-.textoFooter {
-	color: #87e64e;
-	font-family: "Ubuntu", sans-serif;
-	letter-spacing: 2px;
+.footer {
+	background-color: #35d2c1;
+}
+.footer-flex {
+	display: flex;
+	padding: 1rem;
+}
+.footer-column {
+	flex-basis: 50%;
+}
+.icons-footer-flex {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 1rem 0 1rem 0;
+	height: 61%;
+}
+.img-footer {
+	flex-basis: 33.33333%;
+	width: 25px;
+	height: 25px;
 }
 
-.subtextoFooter {
-	color: ivory;
-	font-family: "Calibri", "Trebuchet MS", sans-serif;
-	letter-spacing: 1px;
-}
-
-.sm-button {
-	color: #fff;
-	width: 37px;
-	height: 37px;
-	display: inline-flex;
+.img-firm-flex {
+	display: flex;
+	flex-flow: column nowrap;
 	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	font-size: 20px;
-	cursor: pointer;
-	border-radius: 37px;
-	transition: all 0.5s ease;
-	line-height: 2.1em;
 }
-
-.sm-button.instagram:hover,
-.sm-button.facebook:hover {
-	border: 2px solid;
-	background-color: transparent;
-	transform: rotateY(360deg);
+.img-firm-footer {
+	width: 60%;
 }
-
-.sm-button.instagram {
-	background: #db4189;
-	margin-left: 20px;
+.img-locate-footer {
+	width: 40%;
 }
-
-.sm-button.facebook {
-	background: #0673e7;
+.div-footer {
+	width: 100%;
 }
-
-.sm-button.instagram:hover,
-.sm-button.facebook:hover {
-	color: #fff;
-	border-color: #ffffff;
+.div-footer-svg {
+	width: 100%;
+}
+.footer-title {
+	color: #ffffff;
+	font-family: "Josefin Sans";
+	font-weight: bold;
+}
+.footer-text {
+	font-family: "Source Sans 3";
+	color: #ffffff;
 }
 
 /* SERVICES PAGE */
