@@ -380,10 +380,10 @@ body {
 	justify-content: center;
 }
 .img-firm-footer {
-	width: 70%;
+	width: 100%;
 }
 .img-locate-footer {
-	width: 40%;
+	width: 80%;
 }
 .div-footer {
 	width: 100%;
@@ -399,6 +399,63 @@ body {
 .footer-text {
 	font-family: "Source Sans 3";
 	color: #ffffff;
+}
+
+/* EDITING PAGE */
+.service-level-div {
+	padding: 1rem;
+}
+.service-level-p {
+	font-family: "Source Sans 3", sans-serif;
+}
+.cards-services {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.cards-services-columns {
+	flex-basis: 33.333%;
+	padding: 0.5rem;
+}
+.myCard-serv {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #35d2c1;
+	justify-content: center;
+	height: 100%;
+	border-radius: 15px;
+}
+.body-card-serv {
+	padding: 1rem 1rem 0 1rem;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.div-btn-card-service {
+	padding: 1rem;
+	margin: 0 auto;
+}
+.btn-card-service {
+	border: none;
+	background-color: #55bcb6;
+	border-radius: 15px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.div-btn-serv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.3rem;
+}
+.img-btn-serv {
+	height: 20px;
+	width: 20px;
+	margin-right: 0.3rem;
+}
+.txt-btn-serv {
+	color: #ffffff;
+	font-family: "Source Sans 3";
 }
 
 /* SERVICES PAGE */
