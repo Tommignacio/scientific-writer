@@ -59,6 +59,20 @@
 	.card-column {
 		flex-basis: 20%;
 	}
+
+	/* FOOTER */
+	.order-a {
+		order: 1;
+	}
+	.order-b {
+		order: 4;
+	}
+	.order-c {
+		order: 3;
+	}
+	.order-d {
+		order: 2;
+	}
 	/* SERVICES SECTION */
 
 	.myPoint {
