@@ -52,18 +52,34 @@ header {
 	padding-left: 0 !important;
 }
 
-.Container-help {
+.container-subtitles {
 	display: flex;
 	flex-direction: column;
+	padding: 1rem;
+}
+.container-help {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
 }
 
-.div-titleHelp {
+.div-subtitles-h {
 	height: auto;
 	width: auto;
 	padding: 1rem;
 }
+.div-titleHelp {
+	font-family: "Josefin Sans";
+	height: auto;
+	width: auto;
+	padding: 1rem;
+}
+.div-titleHelp p {
+	font-family: "Source Sans 3", sans-serif;
+	color: #3eb595;
+}
 
-.how-title {
+.h-subtitles {
 	font-size: 2.1rem;
 	font-family: "Cormorant", serif;
 	font-family: "Josefin Sans", sans-serif;
@@ -72,18 +88,14 @@ header {
 	margin-top: 20px;
 }
 
-.div-titleHelp p {
-	font-family: "Cormorant", serif;
-	font-family: "Source Sans 3", sans-serif;
-	color: #3eb595;
-	font-weight: 800;
+.div-subtitles-p {
+	height: 100%;
 }
-
-.Div-mission {
+.div-mission {
 	height: 100%;
 }
 
-.my-Mission {
+.subtitles-p {
 	font-size: 1rem;
 	font-family: "Josefin Sans", sans-serif;
 	font-family: "Source Sans 3", sans-serif;
@@ -92,13 +104,15 @@ header {
 
 .PaperTheses {
 	font-family: "Source Sans 3", sans-serif;
-	padding: 1rem;
+	padding: 1rem 2rem;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 .cards {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	padding: 1rem;
 }
 
 .card-conteiner {
@@ -156,7 +170,7 @@ header {
 .my-description-container {
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: 1rem 2rem;
 }
 
 .my-description-p {
@@ -169,7 +183,7 @@ header {
 
 .flex-firm {
 	display: flex;
-	padding: 1rem;
+	padding: 1rem 2rem;
 }
 .firm-p {
 	font-size: 0.9rem;
@@ -200,6 +214,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 0 1rem;
 }
 
 .li-flex {
@@ -217,6 +232,8 @@ header {
 	padding: 0;
 }
 .imgs-kolab {
+	display: flex;
+	flex-direction: column;
 	padding: 1rem;
 	width: 50%;
 }
@@ -249,6 +266,7 @@ header {
 }
 .bold-works {
 	font-weight: 600;
+	padding: 1rem;
 }
 
 .works-1col {
@@ -335,6 +353,8 @@ header {
 }
 .choose-title {
 	color: #55bcb6;
+	padding: 0 2rem;
+	font-size: 2rem;
 }
 
 .card-column {
@@ -368,10 +388,13 @@ header {
 	padding: 1rem;
 }
 .service-p {
+	text-align: center;
 	font-family: "Source Sans 3";
+	padding: 1rem;
 }
 .img-items-service {
 	width: 100%;
+	padding: 1rem;
 }
 
 /* FOOTER */
@@ -380,7 +403,7 @@ header {
 }
 .footer-flex {
 	display: flex;
-	padding: 1rem;
+	padding: 2rem;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
@@ -420,10 +443,9 @@ header {
 }
 .div-footer {
 	width: 100%;
+	background: #55bcb6;
 }
-.div-footer-svg {
-	width: 100%;
-}
+
 .footer-title {
 	color: #ffffff;
 	font-family: "Josefin Sans";
@@ -432,6 +454,25 @@ header {
 .footer-text {
 	font-family: "Source Sans 3";
 	color: #ffffff;
+}
+.flex-footer {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+.flex-footer p {
+	color: #ffffff;
+	margin-top: revert;
+	padding: 0 0.4rem;
+	font-size: 0.6rem;
+	margin-bottom: 0.5rem;
+}
+
+.flex-footer a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 0.6rem;
+	font-weight: 600;
 }
 
 /* EDITING PAGE */
@@ -447,7 +488,7 @@ header {
 	justify-content: center;
 }
 .cards-services-columns {
-	flex-basis: 33.333%;
+	flex-basis: 100%;
 	padding: 0.5rem;
 }
 .myCard-serv {
@@ -493,22 +534,23 @@ header {
 
 /* SERVICES PAGE */
 
+.service {
+	padding: 1rem;
+}
 .Title-Services {
 	margin: 20px;
 	color: #35d2c1;
 	font-family: Josefin Sans;
-	font-size: 64px;
+	font-size: 2.5rem;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 64px;
-	letter-spacing: -0.02em;
 	text-align: left;
+	padding: 1rem;
 }
 
 .subtitleServices {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-direction: column;
 }
 
@@ -552,7 +594,7 @@ header {
 .myPoint {
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: 1rem;
 }
 
 .myPoints {
@@ -561,14 +603,16 @@ header {
 	justify-content: center;
 	margin-top: 20px;
 	align-items: baseline;
+	padding: 1rem;
 }
 
 .descriptionPoint {
 	font-family: "Source Sans 3", sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 1rem;
 	line-height: 32px;
+	padding-left: 1rem;
 }
 
 .descriptionPoint-color {

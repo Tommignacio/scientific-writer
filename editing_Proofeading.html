@@ -32,6 +32,12 @@
 			href="https://fonts.googleapis.com/css2?family=Cormorant&family=Josefin+Sans:wght@400;500&family=Source+Sans+3:wght@300&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap"
+			rel="stylesheet"
+		/>
 
 		<!-- BOOTSTRAP 5.1-->
 		<link
@@ -55,7 +61,9 @@
 
 	<body>
 		<header>
-			<nav class="navbar fixed-top navbar-expand-lg navbar-light navColor">
+			<nav
+				class="navbar fixed-top navbar-expand-lg navbar-light navColor navbar-fixed-top"
+			>
 				<div class="container-fluid">
 					<a href="index.html"
 						><img src="Assets/Vector.png" alt="logo" class="logo"
@@ -74,12 +82,14 @@
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav">
 							<a class="nav-link" aria-current="page" href="index.html">HOME</a>
-							<a class="nav-link" href="services-writer.html">SERVICES</a>
-							<a class="nav-link" href="#">ABOUT</a>
-							<a class="nav-link" href="#">TESTIMONIALS</a>
-							<a class="nav-link" href="#">EXAMPLES</a>
-							<a class="nav-link" href="#">FAQ</a>
-							<a class="nav-link">CONTACT</a>
+							<a class="nav-link" href="index.html#services">SERVICES</a>
+							<a class="nav-link" href="index.html#about">ABOUT</a>
+							<a class="nav-link" href="index.html#testimonials"
+								>TESTIMONIALS</a
+							>
+							<a class="nav-link" href="index.html#examples">EXAMPLES</a>
+							<a class="nav-link">FAQ</a>
+							<a class="nav-link" href="index.html#contact">CONTACT</a>
 						</div>
 					</div>
 				</div>
@@ -194,7 +204,8 @@
 						Not sure which level to select?
 						<a class="contact-Me" href="#">Contact me.</a>
 					</span>
-					attach the file and specify "Edit as Needed" in the subject. Let me
+					attach the file and specify
+					<span class="bold"> "Edit as Needed"</span> in the subject. Let me
 					know any important information for you. I’ll get back to you
 					suggesting the level of improvement is most appropriate for your
 					document in its current form.

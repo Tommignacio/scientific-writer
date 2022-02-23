@@ -76,7 +76,7 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav">
-							<a class="nav-link" aria-current="page" href="index.html">HOME</a>
+							<a class="nav-link" aria-current="page" href="#vhc">HOME</a>
 							<a class="nav-link" href="#services">SERVICES</a>
 							<a class="nav-link" href="#about">ABOUT</a>
 							<a class="nav-link" href="#testimonials">TESTIMONIALS</a>
@@ -89,18 +89,18 @@
 			</nav>
 		</header>
 
-		<div class="container-fluid imgContainer">
+		<div id="vhc" class="container-fluid imgContainer">
 			<img class="img-vero" src="Assets/an academic to help.png" alt="" />
 		</div>
 
-		<div class="Container-help">
+		<div class="container-help">
 			<div class="div-titleHelp">
-				<h1 class="how-title">How can I Help?</h1>
+				<h1 class="h1-subtitles">How can I Help?</h1>
 				<p>In Spanish and English</p>
 			</div>
 
-			<div class="Div-mission">
-				<p class="my-Mission">
+			<div class="div-mission">
+				<p class="subtitles-p">
 					My mission is to make you exceed in your academic performance by
 					providing the highest quality scientific writing & editing services as
 					well as scientific consultancy & tutoring. I ensure a personalized,
@@ -197,9 +197,12 @@
 
 		<section id="about">
 			<picture>
-				<source media="(min-width:650px)" srcset="/Assets/about-mob1.png" />
+				<source
+					media="(min-width:768px)"
+					srcset="/Assets/description-landing.png"
+				/>
 				<img
-					src="/Assets/about-mob1.png"
+					src="/Assets/description-mobile.svg"
 					alt="description"
 					style="width: 100%"
 				/>
@@ -251,13 +254,13 @@
 			/>
 		</div>
 		<section id="testimonials">
-			<div class="Container-help">
-				<div class="div-titleHelp">
-					<h2 class="how-title">What My Client Say</h2>
+			<div class="container-subtitles">
+				<div class="div-subtitles-h">
+					<h2 class="h-subtitles">What My Client Say</h2>
 				</div>
 
-				<div class="Div-mission clients-p">
-					<p class="my-Mission">
+				<div class="div-subtitles-p clients-p">
+					<p class="subtitles-p">
 						I have worked with clients and colleagues delivering diverse
 						projects across many scientific disciplines. Here’s what they say
 						about me.
@@ -306,20 +309,20 @@
 		</section>
 
 		<section>
-			<div id="examples" class="Container-help">
-				<div class="div-titleHelp">
-					<h2 class="how-title">Examples of my work</h2>
+			<div id="examples" class="container-subtitles">
+				<div class="div-subtitles-h">
+					<h2 class="h-subtitles">Examples of my work</h2>
 				</div>
 
-				<div class="Div-mission clients-p">
-					<p class="my-Mission">
+				<div class="div-subtitles-p clients-p">
+					<p class="subtitles-p">
 						I have worked with clients and colleagues tackling different kinds
 						of projects, including writing, editing and proofreading peer-review
 						articles, editing PhD and undergraduate theses and college reports,
 						creating eye-catching CVs and more.
 					</p>
 
-					<p class="PaperTheses bold-works">
+					<p class="bold-works">
 						View some selected samples of my works below.
 					</p>
 				</div>
@@ -465,8 +468,8 @@
 		</section>
 
 		<section>
-			<div class="div-titleHelp">
-				<h2 class="how-title choose-title">
+			<div class="div-subtitles-h">
+				<h2 class="h-subtitles choose-title">
 					Why choose VHC Scientific Writer?
 				</h2>
 			</div>
@@ -539,7 +542,7 @@
 					the <span class="bold"> best value </span> over any other Editing
 					Company. <a style="color: #55bcb6" href=""> Reference prices. </a>
 				</p>
-				<h2 class="how-title choose-title">How it Works</h2>
+				<h2 class="h-subtitles choose-title">How it Works:</h2>
 				<img class="img-items-service" src="Assets/items-contacts.png" alt="" />
 			</div>
 		</section>
@@ -568,7 +571,11 @@
 						<img class="img-footer" src="Assets/log6.svg" alt="ID" />
 						<img class="img-footer" src="Assets/log5.svg" alt="R" />
 						<img class="img-footer" src="Assets/log4.svg" alt="KolabTree" />
-						<img class="img-footer" src="Assets/log2.svg" alt="mail" />
+						<a
+							href="mailto:sofiabelencartacci@gmail.com?Subject=Interesado%20en%20el%20curso"
+						>
+							<img class="img-footer" src="Assets/log2.svg" alt="mail"
+						/></a>
 					</div>
 				</div>
 
@@ -590,7 +597,11 @@
 				</div>
 			</div>
 			<div id="contact" class="div-footer">
-				<img class="div-footer-svg" src="Assets/footer-div.svg" alt="" />
+				<div class="flex-footer">
+					<p>©</p>
+					<p>all rights reserved 2022 - Design all my profile:</p>
+					<a href=""> Bēhance </a>
+				</div>
 			</div>
 		</footer>
 
