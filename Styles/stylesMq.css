@@ -18,7 +18,12 @@
 	.myCard-body {
 		padding: 0.8rem;
 	}
-
+	.firm-p {
+		width: 55%;
+	}
+	.img-p {
+		width: 45%;
+	}
 	.imgs-kolab {
 		padding: 1.5rem;
 		width: 60%;
@@ -66,6 +71,30 @@
 	}
 	.card-column {
 		flex-basis: 20%;
+	}
+	.firm-p {
+		padding: 0.5rem 10rem 0.5rem 0.5rem;
+		width: 60%;
+	}
+	.img-p {
+		width: 40%;
+	}
+
+	.logos-img-kolab {
+		width: 60%;
+	}
+	.logos-img-highly {
+		width: 100%;
+	}
+
+	.imgs-kolab {
+		width: 40%;
+	}
+	.li-flex {
+		width: 60%;
+	}
+	.list-kolab {
+		flex-basis: 50%;
 	}
 
 	/* FOOTER */
@@ -117,6 +146,17 @@
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 0;
 	}
+	/* INDEX */
+	.logos-img-kolab {
+		width: 50%;
+	}
+	.logos-img-highly {
+		width: 90%;
+	}
+
+	.list-kolab {
+		font-size: 1rem;
+	}
 }
 
 @media screen and (min-width: 975px) {
@@ -128,6 +168,13 @@
 	}
 	.card-conteiner {
 		padding: 1rem;
+	}
+	.firm-p {
+		padding: 0.5rem 20rem 0.5rem 0.5rem;
+		width: 70%;
+	}
+	.img-p {
+		width: 30%;
 	}
 	/* SERVICES SECTION */
 
@@ -158,14 +205,24 @@
 
 @media screen and (min-width: 1136px) {
 	.cardImg {
-		height: 50%;
-		width: 50%;
+		height: 37%;
+		width: 37%;
 	}
+
 	.card-conteiner {
 		padding: 1.5rem;
 	}
 	.f-txt-mg {
 		margin-top: -33px;
+	}
+	.works-text-3col-view {
+		width: 914px;
+	}
+	.works-text-2col-view {
+		width: 1003px;
+	}
+	.works-text {
+		width: 922px;
 	}
 	/* FOOTER */
 	.img-firm-footer {
@@ -176,9 +233,40 @@
 	}
 }
 
-@media screen and (min-width: 1400px) {
-	/* .cards {
+@media screen and (min-width: 1237px) {
+	.works-text-3col-view {
+		width: 1040px;
 	}
-	.myCard {
-	} */
+	.works-text-2col-view {
+		width: 1128px;
+	}
+	.works-text {
+		width: 1047px;
+	}
+	.firm-p {
+		padding: 0.5rem 35rem 0.5rem 0.5rem;
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	.works-text-3col-view {
+		width: 1184px;
+	}
+	.works-text-2col-view {
+		width: 1272px;
+	}
+	.works-text {
+		width: 1191px;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.works-text-3col-view {
+		width: 1324px;
+	}
+	.works-text-2col-view {
+		width: 1412px;
+	}
+	.works-text {
+		width: 1331px;
+	}
 }

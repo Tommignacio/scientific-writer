@@ -56,7 +56,9 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light navColor">
+			<nav
+				class="navbar fixed-top navbar-expand-lg navbar-light navColor navbar-fixed-top"
+			>
 				<div class="container-fluid">
 					<a href="index.html"
 						><img src="Assets/Vector.png" alt="logo" class="logo"
@@ -75,12 +77,12 @@
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav">
 							<a class="nav-link" aria-current="page" href="index.html">HOME</a>
-							<a class="nav-link" href="services-writer.html">SERVICES</a>
-							<a class="nav-link" href="#">ABOUT</a>
-							<a class="nav-link" href="#">TESTIMONIALS</a>
-							<a class="nav-link" href="#">EXAMPLES</a>
+							<a class="nav-link" href="#services">SERVICES</a>
+							<a class="nav-link" href="#about">ABOUT</a>
+							<a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+							<a class="nav-link" href="#examples">EXAMPLES</a>
 							<a class="nav-link" href="#">FAQ</a>
-							<a class="nav-link">CONTACT</a>
+							<a class="nav-link" href="#contact">CONTACT</a>
 						</div>
 					</div>
 				</div>
@@ -108,7 +110,7 @@
 			</div>
 		</div>
 
-		<p class="PaperTheses">
+		<p id="services" class="PaperTheses">
 			Papers - Theses - Essays - Reports - Presentations - Dissertations -
 			Antiplagiarism Analyses - Journal Selection Report - Scientific &
 			Professional Consultancy - Tutoring - Translation
@@ -127,7 +129,7 @@
 					</div>
 
 					<div class="div-card-btn">
-						<button class="cardButton" href="">Read more</button>
+						<a class="cardButton" href="services-writer.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -145,7 +147,7 @@
 					</div>
 
 					<div class="div-card-btn">
-						<button class="cardButton" href="">Read more</button>
+						<a class="cardButton" href="editing_Proofeading.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -193,10 +195,16 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="container-fluid imgContainer">
-				<img class="img-vero" src="Assets/about-mob1.png" alt="about" />
-			</div>
+		<section id="about">
+			<picture>
+				<source media="(min-width:650px)" srcset="/Assets/about-mob1.png" />
+				<img
+					src="/Assets/about-mob1.png"
+					alt="description"
+					style="width: 100%"
+				/>
+			</picture>
+
 			<div class="my-description-container">
 				<p class="my-description-p">
 					I have always loved scientific writing. Throughout my academic career,
@@ -242,7 +250,7 @@
 				alt="logos universities"
 			/>
 		</div>
-		<section>
+		<section id="testimonials">
 			<div class="Container-help">
 				<div class="div-titleHelp">
 					<h2 class="how-title">What My Client Say</h2>
@@ -298,7 +306,7 @@
 		</section>
 
 		<section>
-			<div class="Container-help">
+			<div id="examples" class="Container-help">
 				<div class="div-titleHelp">
 					<h2 class="how-title">Examples of my work</h2>
 				</div>
@@ -320,7 +328,7 @@
 			<div class="works-container">
 				<div class="works-2col">
 					<p class="years">2022</p>
-					<p class="works-text">
+					<p class="works-text-1">
 						Editing & Proofreading (advanced level): Geology report for a master
 						student. Scientific writing: Biology report for University student.
 						Academic consultancy: how to become a Reviewer/Editor for a
@@ -335,7 +343,7 @@
 
 				<div class="works-2col">
 					<p class="years">2021</p>
-					<p class="works-text">
+					<p class="works-text-1">
 						Scientific writing: Peer-reviewed article written from scratch about
 						education in Biology for a University Professor, including the
 						literature research, statistical analysis, journal selection, Cover
@@ -352,10 +360,13 @@
 						European Journal of Plant Pathology Journal.
 					</p>
 					<div class="work-div-btn">
-						<button class="work-btn">
+						<a
+							href="https://rd.springer.com/article/10.1007/s10658-020-02054-1"
+							class="work-btn"
+						>
 							<img class="img-view" src="Assets/eye.svg" alt="view" />
 							<span class="btn-view-txt">View </span>
-						</button>
+						</a>
 					</div>
 				</div>
 				<div class="works-1col">
@@ -370,10 +381,13 @@
 						Journal of Berry Research
 					</p>
 					<div class="work-div-btn">
-						<button class="work-btn">
+						<a
+							href="https://rd.springer.com/article/10.1007/s10526-020-10003-4"
+							class="work-btn"
+						>
 							<img class="img-view" src="Assets/eye.svg" alt="view" />
 							<span class="btn-view-txt">View </span>
-						</button>
+						</a>
 					</div>
 				</div>
 				<div class="works-2col">
@@ -381,10 +395,13 @@
 						Peer-reviewed article published in Plant Biology Journal
 					</p>
 					<div class="work-div-btn">
-						<button class="work-btn">
+						<a
+							href="https://content.iospress.com/articles/journal-of-berry-research/jbr190447"
+							class="work-btn"
+						>
 							<img class="img-view" src="Assets/eye.svg" alt="view" />
 							<span class="btn-view-txt">View </span>
-						</button>
+						</a>
 					</div>
 				</div>
 				<div class="works-2col">
@@ -401,6 +418,15 @@
 						Scientific writing: Peer-reviewed article written and published in
 						Plant Cell Reports Journal
 					</p>
+					<div class="work-div-btn">
+						<a
+							href="https://rd.springer.com/article/10.1007%2Fs00299-017-2226-9"
+							class="work-btn"
+						>
+							<img class="img-view" src="Assets/eye.svg" alt="view" />
+							<span class="btn-view-txt">View </span>
+						</a>
+					</div>
 				</div>
 
 				<div class="works-3col">
@@ -410,10 +436,13 @@
 						Molecular Plant-Microbe Interactions Journal
 					</p>
 					<div class="work-div-btn">
-						<button class="work-btn">
+						<a
+							href="https://apsjournals.apsnet.org/doi/10.1094/MPMI-05-17-0121-FI"
+							class="work-btn"
+						>
 							<img class="img-view" src="Assets/eye.svg" alt="view" />
 							<span class="btn-view-txt">View </span>
-						</button>
+						</a>
 					</div>
 				</div>
 
@@ -423,10 +452,13 @@
 						Peer-reviewed article written and published in Plant Science Journal
 					</p>
 					<div class="work-div-btn">
-						<button class="work-btn">
+						<a
+							href="https://www.sciencedirect.com/science/article/abs/pii/S0168945215300820?via%3Dihub"
+							class="work-btn"
+						>
 							<img class="img-view" src="Assets/eye.svg" alt="view" />
 							<span class="btn-view-txt">View </span>
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -557,7 +589,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="div-footer">
+			<div id="contact" class="div-footer">
 				<img class="div-footer-svg" src="Assets/footer-div.svg" alt="" />
 			</div>
 		</footer>
