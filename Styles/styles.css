@@ -354,22 +354,28 @@ header {
 .choose-title {
 	color: #55bcb6;
 	padding: 0 2rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
+}
+.how-works-title {
+	color: #55bcb6;
+	padding: 0 2rem;
+	font-size: 1.5rem;
 }
 
 .card-column {
 	flex-basis: 33.333%;
-	padding: 0.5rem;
+	padding: 0.3rem;
 }
 .img-cards2 {
 	margin: 0 auto;
 	height: 75px;
 	width: 73px;
 	margin-top: 1rem;
+	padding-bottom: 1rem;
 }
 .myCard-text {
 	flex-grow: 1;
-	padding: 1rem;
+	padding-bottom: 1rem;
 }
 .title-card2 {
 	text-align: center;
@@ -410,6 +416,7 @@ header {
 
 .footer-column-left {
 	flex-basis: 60%;
+	padding-right: 0.5rem;
 }
 .footer-column-right {
 	flex-basis: 40%;
@@ -422,8 +429,17 @@ header {
 	width: 90%;
 	align-items: center;
 }
-.img-footer {
+.icons-footer-flex a {
 	flex-basis: 33.33333%;
+	text-align: center;
+}
+.icons-top {
+	padding-top: 1rem;
+}
+.icons-bottom {
+	padding-bottom: 1rem;
+}
+.img-footer {
 	width: 25px;
 	height: 25px;
 }

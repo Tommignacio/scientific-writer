@@ -119,7 +119,8 @@
 	.img-items-service {
 		padding: 1rem 6rem;
 	}
-	.choose-title {
+
+	.how-works-title {
 		padding: 0 8rem;
 	}
 
@@ -153,6 +154,16 @@
 
 	.flex-footer a {
 		font-size: 1rem;
+	}
+	.icons-top {
+		padding-top: 0;
+	}
+	.icons-bottom {
+		padding-bottom: 0;
+	}
+
+	.footer-column-left {
+		padding-right: 0;
 	}
 	/* SERVICES SECTION */
 
@@ -207,6 +218,9 @@
 	.list-kolab {
 		font-size: 1rem;
 	}
+	.card-column {
+		padding: 1rem;
+	}
 }
 
 @media screen and (min-width: 975px) {
@@ -227,6 +241,21 @@
 	.img-p {
 		width: 30%;
 	}
+
+	.img-cards2 {
+		height: 100px;
+		width: 100px;
+		margin-top: 2rem;
+		padding-bottom: 1rem;
+	}
+	.myCard-text {
+		flex-grow: 1;
+		padding-bottom: 1rem;
+	}
+	.title-card2 {
+		font-size: 1.3rem;
+	}
+
 	/* SERVICES SECTION */
 
 	.btn-wAout {
@@ -282,7 +311,7 @@
 	.works-text {
 		width: 922px;
 	}
-	.choose-title {
+	.how-works-title {
 		padding: 0 14rem;
 	}
 	.img-items-service {
@@ -320,7 +349,6 @@
 		width: 60%;
 	}
 }
-
 @media screen and (min-width: 1350px) {
 	.works-text-3col-view {
 		width: 1184px;
