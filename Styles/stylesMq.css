@@ -285,8 +285,9 @@
 		padding: 1rem 1rem 1rem 5rem;
 	}
 	.cardImg {
-		height: 37%;
-		width: 37%;
+		height: 40%;
+		width: 40%;
+		padding-top: 2rem;
 	}
 
 	.card-conteiner {
@@ -369,5 +370,8 @@
 	}
 	.works-text {
 		width: 1331px;
+	}
+	.firm-p {
+		padding: 0.5rem 50rem 0.5rem 0.5rem;
 	}
 }
