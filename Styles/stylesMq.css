@@ -117,11 +117,11 @@
 		flex-basis: 50%;
 	}
 	.img-items-service {
-		padding: 1rem 6rem;
+		padding: 1rem 4rem;
 	}
 
 	.how-works-title {
-		padding: 0 8rem;
+		padding: 1rem 8rem;
 	}
 
 	/* FOOTER */
@@ -169,6 +169,7 @@
 
 	.cards-services-columns {
 		flex-basis: 33.333%;
+		padding: 0 1rem;
 	}
 	.myPoint {
 		flex-flow: row wrap;
@@ -225,7 +226,9 @@
 
 @media screen and (min-width: 975px) {
 	/* INDEX */
-
+	.div-titleHelp p {
+		font-size: 1.1rem;
+	}
 	.cardImg {
 		height: 40%;
 		width: 40%;
@@ -281,6 +284,10 @@
 }
 
 @media screen and (min-width: 1136px) {
+	.subtitles-p {
+		font-size: 1.2rem;
+	}
+
 	.imgs-kolab {
 		padding: 1rem 1rem 1rem 5rem;
 	}
@@ -313,7 +320,7 @@
 		width: 922px;
 	}
 	.how-works-title {
-		padding: 0 14rem;
+		padding: 1rem 14rem;
 	}
 	.img-items-service {
 		padding: 1rem 10rem;
@@ -324,6 +331,10 @@
 	}
 	.img-locate-footer {
 		width: 30%;
+	}
+	/* EDITING PAGE */
+	.myCard-serv {
+		padding: 1rem 1rem;
 	}
 }
 
@@ -351,14 +362,55 @@
 	}
 }
 @media screen and (min-width: 1350px) {
+	.div-titleHelp p {
+		font-size: 1.5rem;
+	}
+	.bold-works {
+		font-size: 1.2rem;
+	}
+	.works-text-1 {
+		font-size: 1rem;
+	}
 	.works-text-3col-view {
+		font-size: 1rem;
 		width: 1184px;
 	}
 	.works-text-2col-view {
+		font-size: 1rem;
 		width: 1272px;
 	}
 	.works-text {
+		font-size: 1rem;
 		width: 1191px;
+	}
+	.titleCard {
+		font-size: 1.5rem;
+	}
+	.descriptionCard {
+		font-size: 1.2rem;
+	}
+	.firm-p {
+		font-size: 1.2rem;
+	}
+	/* SCIENTIFIC WRITING PAGE */
+	.subtitleP {
+		font-size: 1.2rem;
+	}
+	.descriptionPoint {
+		font-size: 1.2rem;
+	}
+	.service {
+		font-size: 1.2rem;
+	}
+	/* EDITING PAGE */
+	.service-level-p {
+		font-size: 1.2rem;
+	}
+	.text-card-p {
+		font-size: 1.2rem;
+	}
+	.myCard-serv {
+		padding: 2rem 1rem;
 	}
 }
 @media screen and (min-width: 1500px) {
@@ -373,5 +425,8 @@
 	}
 	.firm-p {
 		padding: 0.5rem 50rem 0.5rem 0.5rem;
+	}
+	.img-items-service {
+		padding: 1rem 15rem;
 	}
 }

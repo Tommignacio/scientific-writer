@@ -80,7 +80,7 @@ header {
 }
 
 .h-subtitles {
-	font-size: 2.1rem;
+	font-size: 1.8rem;
 	font-family: "Cormorant", serif;
 	font-family: "Josefin Sans", sans-serif;
 	width: 100%;
@@ -100,6 +100,7 @@ header {
 	font-family: "Josefin Sans", sans-serif;
 	font-family: "Source Sans 3", sans-serif;
 	padding: 1rem;
+	margin: 1rem;
 }
 
 .PaperTheses {
@@ -166,6 +167,9 @@ header {
 	border: none;
 	text-decoration: none;
 }
+.cardButton:hover {
+	color: #000000;
+}
 
 .my-description-container {
 	display: flex;
@@ -184,6 +188,7 @@ header {
 .flex-firm {
 	display: flex;
 	padding: 1rem 2rem;
+	align-items: center;
 }
 .firm-p {
 	font-size: 0.9rem;
@@ -265,8 +270,10 @@ header {
 	margin-right: 1rem;
 }
 .bold-works {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 1rem;
 	font-weight: 600;
-	padding: 1rem;
+	padding: 0 2rem;
 }
 
 .works-1col {
@@ -354,12 +361,12 @@ header {
 .choose-title {
 	color: #55bcb6;
 	padding: 0 2rem;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 .how-works-title {
 	color: #55bcb6;
-	padding: 0 2rem;
-	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	font-size: 1.8rem;
 }
 
 .card-column {
@@ -400,7 +407,6 @@ header {
 }
 .img-items-service {
 	width: 100%;
-	padding: 1rem;
 }
 
 /* FOOTER */
@@ -502,6 +508,7 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	padding: 1rem;
 }
 .cards-services-columns {
 	flex-basis: 100%;
@@ -574,7 +581,7 @@ header {
 }
 
 .subtitleImage {
-	width: 80px;
+	width: 100px;
 	height: 112px;
 	left: 57px;
 	top: 194px;
