@@ -28,6 +28,9 @@
 		padding: 1.5rem;
 		width: 60%;
 	}
+	.list-kolab {
+		font-size: 0.9rem;
+	}
 
 	/* SERVICES SECTION */
 	.cards-services-columns {
