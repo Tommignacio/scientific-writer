@@ -4,10 +4,6 @@ body {
 	scroll-behavior: smooth;
 }
 
-header {
-	padding-bottom: 94px;
-}
-
 .navColor {
 	background-color: #35d2c1 !important;
 }
@@ -50,12 +46,16 @@ header {
 .imgContainer {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
+	padding-top: 5rem;
 }
 
 .container-subtitles {
 	display: flex;
 	flex-direction: column;
-	padding: 1rem;
+	padding: 0 1rem 1rem 1rem;
+}
+.example {
+	padding-top: 5rem;
 }
 .container-help {
 	display: flex;
@@ -169,6 +169,14 @@ header {
 }
 .cardButton:hover {
 	color: #000000;
+}
+
+.img-picture {
+	width: 100%;
+}
+
+.testimonial {
+	padding-top: 5rem;
 }
 
 .my-description-container {

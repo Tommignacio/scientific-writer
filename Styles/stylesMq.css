@@ -84,6 +84,9 @@
 	.descriptionCard {
 		font-size: 1em;
 	}
+	.img-picture {
+		padding-top: 5rem;
+	}
 	.my-description-container {
 		display: none;
 	}

@@ -51,6 +51,20 @@
 		<link rel="stylesheet" href="Styles/styles.css" />
 		<link rel="stylesheet" href="Styles/stylesMq.css" />
 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-222023187-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-222023187-1");
+		</script>
 		<!--TITLE-->
 		<title>VHC SCIENTIFIC</title>
 	</head>
@@ -204,7 +218,7 @@
 				<img
 					src="Assets/description-mobile.svg"
 					alt="description"
-					style="width: 100%"
+					class="img-picture"
 				/>
 			</picture>
 
@@ -253,7 +267,7 @@
 				alt="logos universities"
 			/>
 		</div>
-		<section id="testimonials">
+		<section class="testimonial" id="testimonials">
 			<div class="container-subtitles">
 				<div class="div-subtitles-h">
 					<h2 class="h-subtitles">What My Client Say</h2>
@@ -308,8 +322,8 @@
 			</div>
 		</section>
 
-		<section>
-			<div id="examples" class="container-subtitles">
+		<section class="example" id="examples">
+			<div class="container-subtitles">
 				<div class="div-subtitles-h">
 					<h2 class="h-subtitles">Examples of my work</h2>
 				</div>
